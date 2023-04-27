@@ -6,11 +6,11 @@ function pickPrimes(arr){
 let arr2 = [];
 
     for(i=0; i<arr.length; i++){
-        if(isPrime() === true){
-            arr2.push(arr[i]);
+        if(isPrime(arr[i]) === true){
+            console.log(arr[i]);
         }
     }
-    return arr2;
+
 }
 
 function isPrime(num){
