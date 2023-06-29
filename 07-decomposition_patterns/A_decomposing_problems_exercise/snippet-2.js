@@ -14,8 +14,3 @@ let alice = function (n) {
   
   alice(4);
 
-// good
-// bad
-// good
-// bad
-// good

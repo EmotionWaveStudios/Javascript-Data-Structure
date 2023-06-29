@@ -13,7 +13,7 @@ let flim = function () {
 
   flim();
 
-  //leak
-  //beak
-  //sneak
-  //geek
+//leak
+//beak
+//sneak
+//geek

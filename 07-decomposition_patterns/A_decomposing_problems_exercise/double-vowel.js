@@ -4,15 +4,12 @@
 
 function doubleVowel(str){
     let str2 = '';
-
     for(i=0; i<str.length; i++){
-        if(str[i]==='a'  ||str[i]==='e'  ||str[i]==='i'  ||str[i]==='o'  ||str[i]==='u'){
-            str2+=str[i]+str[i];
-        }else{
-            str2+=str[i];
+    str2 += str[i];
+        if(str[i]==='a' || str[i]==='e' || str[i]==='i' || str[i]==='o' || str[i]==='u'){
+            str2 += str[i];
         }
     }
-
     return str2;
 }
 
