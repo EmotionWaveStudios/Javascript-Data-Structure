@@ -6,7 +6,19 @@
 // For example, 8 is not a prime because it is divisible by 1, 2, 4, and 8
 
 function isPrime(num){
+    if(num===2){
+        return true;
+    }
 
+    if(num===1){
+        return false;
+    }
+
+    for(i=3; i<num; i++){
+        if(num%i===0){
+            return false;
+        }
+    }
 }
 
 console.log(isPrime(11)); // true
