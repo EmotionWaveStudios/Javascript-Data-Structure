@@ -3,10 +3,7 @@
 // You can assume that the argument will be a valid email address.
 
 function emailParse(str){
-    let username = str.slice(0, str.indexOf('@'));
-    let domain = str.slice(str.indexOf('@')+1);
 
-    return {'username': username, 'domain': domain};
 }
 
 console.log(emailParse("coolcoder42@goodmail.com"));

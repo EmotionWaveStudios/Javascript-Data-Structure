@@ -3,19 +3,7 @@
 // assume that all values are numbers and there are no ties.
 
 function maxObjectValue(obj){
-    let arr =[];
-    let largest = 0;
-    let key = '';
-
-    for(let element in obj){
-        if(obj[element]>largest){
-            largest = obj[element];
-            key = element;
-        }
-    }
-    arr.push(key, largest);
-
-    return arr;
+let arr = [];
 }
 
 console.log(maxObjectValue({ a: 5, b: 2, c: 6, d: 7, e: 4 })); // ['d', 7]

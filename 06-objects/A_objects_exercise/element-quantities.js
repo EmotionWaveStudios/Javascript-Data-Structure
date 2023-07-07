@@ -3,15 +3,7 @@
 // appearing with the correct quantities. See the examples.
 
 function elementQuantities(obj){
-    let arr = [];
 
-    for(let element in obj){
-        for(i=0; i<obj[element]; i++){
-        arr.push(element);
-        }
-    }
-
-    return arr;
 }
 
 let quantities1 = { cat: 3, bird: 1, dog: 2 };

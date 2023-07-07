@@ -3,12 +3,7 @@
 // See the examples.
 
 function keyPair(obj1, obj2, key){
-    let arr = [];
 
-    arr.push(obj1[key]);
-    arr.push(obj2[key]);
-
-    return arr;
 }
 
 let cat1 = { name: "jinkee", breed: "calico" };
