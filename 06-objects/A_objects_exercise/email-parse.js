@@ -3,7 +3,8 @@
 // You can assume that the argument will be a valid email address.
 
 function emailParse(str){
-
+    let obj = {};
+    
 }
 
 console.log(emailParse("coolcoder42@goodmail.com"));
