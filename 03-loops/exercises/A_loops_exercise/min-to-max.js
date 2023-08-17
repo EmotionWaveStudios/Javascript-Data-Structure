@@ -2,9 +2,9 @@
 // print all numbers from min to max inclusive. The function doesn't need to return any value. It
 // should just print to the terminal.
 
-function minToMax(min, max){
-    for(i=min;i<=max;i++){
-        console.log(i);
+function minToMax(min,max){
+    for(i=min; i<=max; i++){
+        console.log(i)
     }
 }
 

@@ -2,7 +2,7 @@
 // whether or not the string ends in the substring 'ly'.
 
 function endsInLy(str){
-    if(str.indexOf('ly')>-1){
+    if(str.slice([str.length-2])==='ly'){
         return true;
     }else{
         return false;
@@ -11,7 +11,7 @@ function endsInLy(str){
 
 console.log(endsInLy("pretty")); // false
 console.log(endsInLy("instant")); // false
-console.log(endsInLy("analytic")); // true
+console.log(endsInLy("analytic")); // false
 console.log(endsInLy("timidly")); // true
 console.log(endsInLy("fly")); // true
 console.log(endsInLy("gallantly")); // true
