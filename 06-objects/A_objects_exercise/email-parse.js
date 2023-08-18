@@ -2,9 +2,11 @@
 // should return an object containing `username` and `domain` as keys. See the examples.
 // You can assume that the argument will be a valid email address.
 
-function emailParse(str){
+function emailParse(emailStr){
     let obj = {};
-    
+    obj.username = emailStr.slice(0,emailStr.indexOf('@'));
+    obj.domain = emailStr.slice(emailStr.indexOf('@')+1);
+    return obj;    
 }
 
 console.log(emailParse("coolcoder42@goodmail.com"));

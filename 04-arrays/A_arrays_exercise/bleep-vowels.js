@@ -2,15 +2,15 @@
 // a new string where all vowels are replaced with `*`s. Vowels are the letters a, e, i, o, u.
 
 function bleepVowels(str){
-    let newstr="";
-    for(i=0;i<str.length;i++){
+    let newStr = "";
+    for(i=0; i<str.length; i++){
         if(str[i]==='a' || str[i]==='e' || str[i]==='i' || str[i]==='o' || str[i]==='u'){
-            newstr+='*';
+            newStr += '*';
         }else{
-            newstr+=str[i];
+            newStr += str[i];
         }
     }
-    return newstr;
+    return newStr;
 }
 
 console.log(bleepVowels("skateboard")); // 'sk*t*b**rd'

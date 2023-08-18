@@ -15,11 +15,10 @@ let dog = {
   dog.breed = dog.breed.toUpperCase();
   dog.favoriteFoods.push("sausage");
   
-  console.log(dog.age); //5
+  console.log(dog.age); //6
   console.log(dog.breed); //PUG
   console.log(dog.favoriteFoods); //["bacon","sausage"]
   
   for (property in dog) {
     console.log(property + " is " + dog[property]);
   }
-  //
