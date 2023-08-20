@@ -4,12 +4,18 @@
 
 function maxObjectValue(obj){
     let arr = [];
+    let arr2 = [];
     
     for(property in obj){
         arr.push([property, obj[property]]);
     }
 
-    return arr
+    let num = 0;
+    for(i=0; i<arr.length; i++){
+        if(arr[i][1]>num){
+            num = arr[i][1];
+        }
+    }
 }
 
 console.log(maxObjectValue({ a: 5, b: 2, c: 6, d: 7, e: 4 })); // ['d', 7]
